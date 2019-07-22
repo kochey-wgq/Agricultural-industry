@@ -1,0 +1,74 @@
+/* pages/mymassage/mymassage.wxss */
+@import "../../icon-font/iconfont.wxss";
+page{
+  box-sizing: border-box;
+  background-color: white;
+  height:100%;
+}
+.my-msg{
+  width: 100;
+  height:100%;
+}
+.mymsg-wrap{
+  position: realtive;
+  width: 100%;
+  height:200rpx;
+}
+.mymsg-wrap image{
+
+  width: 100%;
+  height: 100%;
+}
+.user{
+  position: absolute;
+  top:4%;
+  left:7%;
+  width:300rpx;
+}
+.user text,.user view{
+  float: left;
+}
+.user view{
+  font-size: 100rpx;
+  color:rgb(9, 77, 60);
+}
+.user text{
+  line-height:110rpx;
+  font-size: 40rpx;
+  margin-left: 15%;
+  color:rgba(7, 34, 7, 0.74);
+  font-weight: bold;
+}
+
+.my-list{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:270rpx;
+  border-top:25rpx solid #dfdbdb;
+  color:#817e7e;
+}
+.title{
+  flex:1;
+  padding-left:5%;
+  font-size: 30rpx;
+  line-height:100rpx;
+  border: 1rpx solid #d8d4d4;
+  color: #888;
+}
+.my-wrap{
+  flex:2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.my-wrap .list-children view{
+  text-align: center;
+  font-size: 40rpx;
+  margin-bottom: 10%;
+}
+.my-wrap .list-children{
+  box-sizing: border-box;
+  height:100%;
+  padding-top: 5%;
+}

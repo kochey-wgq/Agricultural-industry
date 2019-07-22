@@ -1,0 +1,32 @@
+/* pages/seoDetails/seoDetails.wxss */
+@import "../../icon-font/iconfont.wxss";
+.wrapper{
+  height:100%;
+}
+.seo-component{
+  position: relative;
+  margin:20rpx;
+}
+.seo{
+  box-sizing: border-box;
+  width: 80%;
+  height:65rpx;
+  background-color: #fff;
+  border-radius: 15rpx;
+  padding-left: 90rpx;
+}
+.seo-icon{
+  position: absolute;
+  top:18rpx;
+  left:30rpx;
+  z-index: 999;
+  color:#666;
+}
+.seo-btn{
+  position: absolute;
+  right: 0;
+  top:0;
+  height:65rpx;
+  line-height:65rpx;
+  color:#666;
+}

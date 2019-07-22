@@ -1,0 +1,212 @@
+{
+  "changeOrigin" : true,
+  "dataImg":[
+    {
+      "id" : "01",
+      "targetUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563177461916&di=db49153f7448336d3fad34b09aa6a3d6&imgtype=0&src=http%3A%2F%2Falipic.files.mozhan.com%2Fueditor%2Fimage%2F20180703%2F1530584646400794.jpg"
+    },
+    {
+      "id" : "02",
+      "targetUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2806047710,320682272&fm=26&gp=0.jpg"
+    },
+    {
+      "id" : "03",
+      "targetUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563177659014&di=5cfee5709d178cb2288d1e0f7a3f3425&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170611%2Fad511ec69c4a40f8bd508c3e13d78d8c_th.jpg"
+    },
+    {
+      "id" : "04",
+      "targetUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563177758103&di=f84a3a2ef3129c09b2a24ffaea99a870&imgtype=0&src=http%3A%2F%2Fs7.sinaimg.cn%2Fmw690%2F006HHpQ9zy7dMPrjzi626%26690"
+    }
+  ],
+  "dataNav":[
+    {
+      "navMsg": "精选"
+    },
+    {
+      "navMsg": "家禽肉蛋"
+    },
+    {
+      "navMsg": "有机蔬菜"
+    },
+    {
+      "navMsg": "鲜活水产"
+    },
+    {
+      "navMsg": "油粮五谷"
+    },
+    {
+      "navMsg": "其他产品"
+    }
+  ],
+
+  "expressNews":{
+    "msg":"戳此49买两斤自制腊肉！",
+    "url":"http://img.weiye.me/zcimgdir/album/file_59705bd214fc1.png"
+  },
+
+  "infoMouth":[
+    {
+      "infoMsg":"全部商品",
+      "iconImg":"icon-quanbu"
+    },
+    {
+      "infoMsg":"爆款商品",
+      "iconImg":"icon-baokuan-"
+    },
+    {
+      "infoMsg":"优惠券",
+      "iconImg":"icon-youhuijuan"
+    },
+    {
+      "infoMsg":"我的订单",
+      "iconImg":"icon-icon_order"
+    }
+  ],
+
+  "mainList":[
+    {
+      "id":"001",
+      "title":"油盐茶米享尽生",
+      "titleInfo":"大家都说上新的速度越来越快，都快买不过来了！",
+      "titleImgUrl":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563367883779&di=99aa1afa5edddebd96bb19c1aee8307e&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181013%2F4ba4fe09465946339a3a18c0995ff2ab.jpeg"
+    },
+    {
+      "id": "002",
+      "title": "新鲜水果任你挑",
+      "titleInfo": "无农药化肥，这就是最真实的蔬菜!",
+      "titleImgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563454651519&di=bc4b0bd4b4d139bf5925cdbea51ae2b2&imgtype=0&src=http%3A%2F%2Fe0.ifengimg.com%2F05%2F2019%2F0628%2FA27DED499102578922F3C7AA7ACFC8B3F8DB216A_size73_w800_h586.jpeg"
+    },
+    {
+      "id": "003",
+      "title": "农家自制产品推荐",
+      "titleInfo": "人间美味在农家!",
+      "titleImgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563454913466&di=010a5b7fb575a3648d63b1fd6da67f73&imgtype=0&src=http%3A%2F%2Fimg.juimg.com%2Ftuku%2Fyulantu%2F111210%2F54682-11121009523838.jpg"
+    }
+  ],
+  "slideBlockRice": [
+    {
+      "id": "0001",
+      "detailImgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563368117409&di=50b22074cc35d06354cceb2c301d3fa5&imgtype=0&src=http%3A%2F%2Fimg1.wushang.com%2Fimg%2F2015%2F5%2F6%2F4470006_800X800.jpg",
+      "titleMsg": "福临门天然谷物食用调和油",
+      "money": "492￥",
+      "SalesVolume": "8"
+    },
+    {
+      "id": "0002",
+      "detailImgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563524104737&di=62831c53693197b13d007334b1af447c&imgtype=0&src=http%3A%2F%2Fimg4.99114.com%2Fgroup1%2FM00%2F70%2F1D%2FwKgGS1kUY2CAVRrhAAU1ERmeWmc980.jpg",
+      "titleMsg": "湖南特产柴火自制土猪咸肉250g",
+      "money": "112￥",
+      "SalesVolume": "23"
+    },
+    {
+      "id": "0003",
+      "detailImgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563523911884&di=d059dd479fd75b4d52ab0bfbafa6c732&imgtype=0&src=http%3A%2F%2Fadmin.jzty.cc%2FUploadFiles%2FHuiYuanKa%2FImages%2FBigSl%2F%25E8%258E%25B2%25E8%2597%2595_20140616091835.jpg",
+      "titleMsg": "新鲜脆嫩200g",
+      "money": "34￥",
+      "SalesVolume": "50"
+    },
+    {
+      "id": "0004",
+      "detailImgUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563523835770&di=aee7efcb610e81740cb48caa0a6ee5d0&imgtype=0&src=http%3A%2F%2Fimg.name2012.com%2Fuploads%2Fallimg%2F2015-05%2F06-031829_795.jpg",
+      "titleMsg": "新鲜上等龙虾",
+      "money": "88￥",
+      "SalesVolume": "55"
+    }
+  ],
+  "popularData":{
+    "title":"//   热门推荐   //",
+    "popularList":[
+      {
+        "id":"00001",
+        "titleMsg":"鸭肉的营养价值与鸡肉相仿",
+        "url":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563524662360&di=538f4c08625dc038a1d2a6fb71591500&imgtype=0&src=http%3A%2F%2Fcp1.douguo.net%2Fupload%2Fcaiku%2Fd%2F6%2F1%2Fyuan_d68872cb6b9f91349273706a0ef5b961.jpg",
+        "money":"￥55",
+        "buy":"去购买"
+      },
+      {
+        "id": "00002",
+        "titleMsg": "罗非鱼的肉味鲜美，肉质细嫩",
+        "url": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563524843228&di=4d92c1759e6636f15ccb7a909e436da6&imgtype=0&src=http%3A%2F%2Fstatic.chinacaipu.com%2Fd%2Ffile%2Fmenu%2Fshuichanshipu%2F2015-05-04%2F5dfc14246a2c25c340455539fd2f0a9b.jpg",
+        "money": "￥40",
+        "buy": "去购买"
+      },
+      {
+        "id": "00003",
+        "titleMsg": "炒、炸、煎，口感极好",
+        "url": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563524940842&di=84d8424adb8abed5880d079ac21f4435&imgtype=0&src=http%3A%2F%2Fd9.yihaodianimg.com%2FV00%2FM01%2FA7%2F94%2FCgQDsVSj4dGAdtisAAQc4OCEWaU49700_380x380.jpg",
+        "money": "￥60",
+        "buy": "去购买"
+      },
+      {
+        "id": "00004",
+        "titleMsg": "皮皮虾全熟后下入菜花，翻炒均匀",
+        "url": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563524983360&di=c36fb116e4fb460dac8edf704bce2edc&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn%2Fw600h540%2F20180124%2Fda38-fyqwiqk1149092.jpg",
+        "money": "￥85",
+        "buy": "去购买"
+      },
+      {
+        "id": "00005",
+        "titleMsg": "优质蛋白质、B族维生素的良好来源",
+        "url": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563525089012&di=ca445dbcbf2b1dec56e78066bf242aee&imgtype=0&src=http%3A%2F%2Fs10.sinaimg.cn%2Fbmiddle%2F0037pmqogy6XWkMM3Wh29%26690",
+        "money": "￥20",
+        "buy": "去购买"
+      }
+    ]
+  },
+  "authorData":{
+    "url":"https://7669-video-bj26u-1259614424.tcb.qcloud.la/1.jpg?sign=ea55ce251f9d21178e8500bd0966558e&t=1563515355",
+    "author":"制作人: KoChey"
+  },
+  "mymsgData":[
+    {
+      "id":"1",
+      "myTitle":"我的电商",
+      "payment":"iconfont icon-daifukuan",
+      "paymentText":"待收款",
+      "deliver":"iconfont icon-daifahuo",
+      "deliverText":"待发货",
+      "receiving":"iconfont icon-untitled3",
+      "receivingText":"待收货",
+      "evaluate":"iconfont icon-pingjia-",
+      "evaluateText":"待评价"
+    },
+    {
+      "id": "2",
+      "myTitle": "我的工具",
+      "payment": "iconfont icon-dizhi",
+      "paymentText": "收货地址",
+      "deliver": "iconfont icon-gouwuche",
+      "deliverText": "购物车",
+      "receiving": "iconfont icon-xitongtongzhi",
+      "receivingText": "系统通知"
+    },
+    {
+      "id": "3",
+      "myTitle": "会员中心",
+      "payment": "iconfont icon-huiyuanqia",
+      "paymentText": "会员卡",
+      "deliver": "iconfont icon-youhuiquan",
+      "deliverText": "优惠券",
+      "receiving": "iconfont icon-jifen",
+      "receivingText": "积分",
+      "evaluate": "iconfont icon-chuzhijine",
+      "evaluateText": "储值金"
+    },
+    {
+      "id": "4",
+      "myTitle": "营销工具",
+      "payment": "iconfont icon-wodepintuan",
+      "paymentText": "我的拼团",
+      "deliver": "iconfont icon-zhongjiang",
+      "deliverText": "中奖中心",
+      "receiving": "iconfont icon-daiyanren",
+      "receivingText": "代言人中心"
+    },
+    {
+      "id": "5",
+      "myTitle": "我的视频",
+      "payment": "iconfont icon-shipin",
+      "paymentText": "我的视频"
+    }
+  ]
+}

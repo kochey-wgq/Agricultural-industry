@@ -1,0 +1,43 @@
+<!--pages/shopping/shopping.wxml-->
+<view class="shopping">
+  <view class="header">
+    <text class="title">购物车</text>
+    <text class="edit" bindtap="handleEdit">{{edit}}</text>
+  </view>
+  <!-- 删除 -->
+  <view class="silde-window {{slideWin}}">
+    <view class="total-checked">
+      <view  class="iconfont icon-dagou {{active}}" bindtap="handleCheck"></view>
+      <text>全选</text>
+    </view>
+    <view class="delete-style">
+      <text class="delete">删除所选</text>
+    </view>
+  </view>
+  <!-- 购物列表 -->
+  <view class="shopping-list">
+    <view class="iconfont icon-dagou {{active}} {{listActive}}" bindtap="handleCheckList"></view>
+    <view>
+      <image src="https://7669-video-bj26u-1259614424.tcb.qcloud.la/timg.jpg?sign=c8ee6bd2c1f7ddc3fed0b9c95faccccc&t=1563691449"></image>
+    </view>
+    <view class="detail">
+      <view class="title">
+        <text>鸭肉的营养价值与鸡肉相仿</text>
+        <text>价格￥{{imgMoney}}</text>
+      </view>
+      <view class="plus-pop">
+        <button bindtap="pop">-</button>
+        <text>{{sum}}</text>
+        <button bindtap="push">+</button>
+      </view>
+    </view>
+  </view>
+  <!-- 结算 -->
+  <view class="shopping-total">
+    <view class="total-wrap">
+      <text>合计:</text>
+      <text>￥{{money}}</text>
+      <button class="btn-total">结算</button>
+    </view>
+  </view>
+</view>

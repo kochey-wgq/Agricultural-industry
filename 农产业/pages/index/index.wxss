@@ -1,0 +1,255 @@
+/**index.wxss**/
+@import "../../icon-font/iconfont.wxss";
+.wrapper{
+  height:100%;
+}
+.seo-component{
+  position: relative;
+  margin:20rpx;
+}
+.seo{
+  box-sizing: border-box;
+  width: 100%;
+  height:65rpx;
+  background-color: #fff;
+  border-radius: 15rpx;
+  padding-left: 90rpx;
+}
+.seo-icon{
+  position: absolute;
+  top:18rpx;
+  left:30rpx;
+  z-index: 999;
+  color:#666;
+}
+.seo-tips{
+  height:inherit;
+  line-height: 65rpx;
+  color:#666;
+}
+
+.nav{
+  display: flex;
+  width: 1080rpx;
+  height:110rpx;
+  background-color: white;
+}
+.nav .navList{
+  width:180rpx;
+  height:100rpx;
+  line-height:100rpx;
+  text-align: center;
+  color:#555;
+  font-size: 30rpx;
+}
+.navActive{
+  border-bottom:5rpx solid #63d4bd;
+}
+.swiper-style navigator{
+  width: 100%;
+  height: 100%;
+}
+.swiper-style image{
+  width:100%;
+  height: 100%;
+}
+
+.info-mouth{
+  display: flex;
+  box-sizing: border-box;
+  padding:60rpx 30rpx;
+  justify-content: space-between;
+  width: 100%;
+  height:300rpx;
+  background-color: white;
+  color:#555;
+}
+.info-mouth navigator{
+  width: 120rpx;
+  line-height:120rpx;
+  border-radius: 50%;
+  border:2rpx solid #ccc;
+  font-size:70rpx;
+  text-align: center;
+  margin-bottom: 10rpx;
+}
+.info-mouth view{
+  text-align: center;
+}
+.expressNews{
+  display: flex;
+  box-sizing: border-box;
+  padding-top:20rpx;
+  width: 100%;
+  height:80rpx;
+  background-color: white;
+  border-top:1px solid #ccc;
+  margin-bottom: 30rpx;
+}
+.expressNews > view{
+  flex: 1;
+  height:40rpx;
+  float: left;
+  margin-left:20rpx;
+}
+.expressNews-img{
+  width:100%;
+  height:100%;
+}
+.expressNews view:nth-last-child(1){
+  height:100%;
+  line-height:40rpx;
+  flex:3;
+  color:#888;
+}
+
+.food{
+  width:100%;
+}
+.food-wrap{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20rpx;
+}
+.titleImgUrl{
+  width: 100%;
+  height:100%;
+  margin-bottom:20rpx;
+}
+.title,.titleInfo,.titleImgUrl{
+  flex:1;
+}
+.title{
+  font-size: 33rpx;
+}
+.title,.titleInfo{
+  line-height: 100rpx;
+  text-align: center;
+}
+.titleInfo{
+  font-size:25rpx;
+  height: 50rpx;
+  line-height: 0 !important;
+  color: #888
+}
+.food-scroll{
+  margin-bottom: 20rpx;
+}
+.slide-wrap{
+  display: flex;
+  width: 150%;
+  justify-content: space-around;
+  background-color: white;
+}
+.slide-wrap navigator{
+  width: 20%;
+  height:25%;
+}
+.slide-wrap navigator image{
+  width: 100%;
+  height:100%;
+}
+.titleMsg{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color:#444;
+}
+.money{
+  float: left;
+  font-size: 36rpx;
+  color:orange;
+}
+.SalesVolume{
+  float: right;
+  font-size:30rpx;
+  color:#888;
+}
+
+.popular-wrap{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+.popular-title{
+  width: 100%;
+  line-height: 85rpx;
+  border-bottom:1rpx solid #ccc;
+  text-align: center;
+}
+.popular-list{
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5%;
+  border-bottom: 1rpx solid #ccc;
+}
+.popular-list image{
+  width: 155rpx;
+  height:140rpx;
+}
+.right{
+  flex:2;
+  box-sizing: border-box;
+  padding-left: 35rpx;
+}
+.popular-titleMsg{
+  display: block;
+  width: 100%;
+  text-align: left;
+  color:#444;
+  margin-bottom: 8%;
+  font-size: 30rpx;
+}
+.popular-money,.popular-buy{
+  display: inline-block;
+  padding:10rpx;
+}
+.popular-money{
+  float: left;
+  color:orangered;
+  font-weight: bold;
+  font-size: 40rpx;
+}
+.popular-buy{
+  float: right;
+  border:5rpx solid orangered;
+  border-radius: 8rpx;
+  color:orangered;
+}
+
+.author-wrap{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:100%;
+  background-color: white;
+}
+.author{
+  flex: 1;
+  box-sizing: border-box;
+  text-align: center;
+}
+.author-img{
+  display: inline-block;
+  width: 150rpx;
+}
+.author-img image{
+  display: block;
+  width:100%;
+  height:100%;
+  border-radius: 50%;
+  margin-top: 20%;
+}
+.author-info{
+  flex: 1;
+  display: block;
+  padding:10rpx;
+  text-align: center;
+  color:#888;
+}

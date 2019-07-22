@@ -1,0 +1,94 @@
+<!--index.wxml-->
+<view class="wrapper">
+  <!-- 搜索导航 -->
+  <view class="seo-component">
+    <!-- 跳转 -->
+    <navigator url="../seoDetails/seoDetails" open-type="navigate">
+      <view class="seo">
+        <!-- 搜索图标 -->
+        <view class="iconfont icon-sousuo seo-icon"></view>
+        <!-- 文字提示 -->
+        <text class="seo-tips">请输入搜索内容</text>
+      </view>
+    </navigator>
+  </view>
+  <!-- 导航 -->
+  <scroll-view scroll-x>
+    <view class="nav">
+      <navigator
+       class="navList {{ navIndex == index ? 'navActive' : ''}}" 
+       wx:for="{{navList}}" 
+       wx:for-item="navItem" 
+       wx:key="navItem.id" 
+       bindtap="handleIndex" 
+       data-index="{{index}}"
+       >{{navItem.navMsg}}</navigator>
+    </view>
+  </scroll-view>
+  <!-- 轮播 -->
+  <swiper indicator-dots indicator-color="rgb(255,255,255,.7)" indicator-active-color="rgb(27,75,17,1)" autoplay interval="3000" duration="800" easing-function="linear" circular>
+      <swiper-item
+        wx:for="{{swiperList}}"
+        wx:for-item="swiperItem"
+        wx:key="swiperItem.id"
+        class="swiper-style">
+        <navigator>
+          <image src="{{swiperItem.targetUrl}}" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+  </swiper>
+  <!-- 信息入口 -->
+  <view class="info-mouth">
+    <view wx:for="{{infoMouthList}}" wx:key="item">
+      <navigator class="iconfont {{item.iconImg}}"></navigator>
+      <view>{{item.infoMsg}}</view>
+    </view>
+  </view>
+  <view class="expressNews">
+    <view >
+      <image src="{{expressNews.url}}" class="expressNews-img"></image>
+    </view>
+    <view>{{expressNews.msg}}</view>
+  </view>
+  <!-- 食品 -->
+  <view class="food">
+    <view class="food-wrap" wx:for="{{foodTopTitle}}" wx:key="item.id">
+      <text class="title">{{item.title}}</text>
+      <text class="titleInfo">{{item.titleInfo}}</text>
+      <image class="titleImgUrl" src="{{item.titleImgUrl}}" mode="widthFix"></image>
+    </view>
+    <scroll-view scroll-x class="food-scroll">
+      <view class="slide-wrap">
+        <navigator wx:for="{{foodList}}" wx:for-item="slide" wx:key="slide.id">
+          <image src="{{slide.detailImgUrl}}" mode="widthFix"></image>
+          <text class="titleMsg">{{slide.titleMsg}}</text>
+          <view>
+            <text class="money">{{slide.money}}</text>
+            <text class="SalesVolume">销量:{{slide.SalesVolume}}</text>
+          </view>
+        </navigator>
+      </view>
+    </scroll-view>
+  </view>
+  <!-- 热门推荐 -->
+  <view class="popular-wrap">
+    <view class="popular-title">{{popularTitle}}</view>
+    <view class="popular-list" wx:for="{{popularList}}" wx:key="item.id">
+      <image src="{{item.url}}"></image>
+      <view class="right">
+        <text class="popular-titleMsg">{{item.titleMsg}}</text>
+        <text class="popular-money">{{item.money}}</text>
+        <navigator class="popular-buy">{{item.buy}}</navigator>
+      </view>
+    </view>
+  </view>
+  <!-- 作者出品 -->
+  <view class="author-wrap">
+    <view class="author">
+      <view class="author-img">
+          <image src="{{authorList.url}}" mode="widthFix"></image>
+      </view>
+    </view>
+    <text class="author-info">{{authorList.author}}</text>
+  </view>
+</view>

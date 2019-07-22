@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shopping/shopping",
+    "pages/mymassage/mymassage",
+    "pages/seoDetails/seoDetails"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh":true,
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "农产业",
+    "backgroundColor": "#eeeeee",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/01.png",
+        "selectedIconPath": "image/01-1.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物车",
+        "iconPath": "image/02.png",
+        "selectedIconPath": "image/02-2.png"
+      },
+      {
+        "pagePath": "pages/mymassage/mymassage",
+        "text": "我的",
+        "iconPath": "image/03.png",
+        "selectedIconPath": "image/03-3.png"
+      }
+    ],
+    "borderStyle":"black",
+    "color":"#666"
+  },
+  "sitemapLocation": "sitemap.json"
+}

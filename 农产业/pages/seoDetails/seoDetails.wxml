@@ -1,0 +1,14 @@
+<!--pages/seoDetails/seoDetails.wxml-->
+<view class="wrapper">
+  <!-- 搜索导航详情 -->
+  <form bindsubmit="formSubmit">
+    <view class="seo-component">
+      <input class="seo" placeholder="请输入搜索内容">
+        <!-- 搜索图标 -->
+        <view class="iconfont icon-sousuo seo-icon"></view>
+      </input>
+      <!-- 搜索按钮 -->
+      <button formType="submit" class="seo-btn">搜索</button>
+    </view>
+  </form>
+</view>
